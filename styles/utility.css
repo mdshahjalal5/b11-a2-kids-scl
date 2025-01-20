@@ -13,7 +13,7 @@ body {
 .jcc {
   justify-content: center;
 }
-.iac {
+.aic {
   align-items: center;
 }
 .dg {
@@ -46,6 +46,10 @@ body {
 .text-4 {
   color: #5d58ef;
 }
+.shade {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 header,
 main {
   max-width: 1440px;

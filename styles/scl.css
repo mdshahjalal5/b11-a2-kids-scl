@@ -1,13 +1,10 @@
 /*w: nav styles */
 header {
-  margin-top: 30px;
+  margin-top: 5px;
 }
-.nav-container {
-  /* gap: 11.62rem; */
-}
+
 nav {
   justify-content: space-between;
-  margin-left: 10px;
 }
 .bars {
   display: none;
@@ -15,7 +12,6 @@ nav {
 nav img {
   max-width: 2.93rem;
   max-height: 2.93rem;
-  margin-top: 10px;
 }
 nav h2 {
   margin-left: 10px;
@@ -33,8 +29,29 @@ nav ul li a {
 .ul-container {
   justify-content: space-between;
   gap: 11.62rem;
-  margin-right: 20px;
 }
 
-/* .ul-container button { */
-/* } */
+/*w: banner section styles */
+.banner {
+  gap: 5.25rem;
+  padding: 2rem;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.banner-img {
+  max-width: 25.25rem;
+}
+.banner-img img {
+  max-width: 100%;
+}
+
+.banner-infos {
+  /* max-width: 640px; */
+}
+.banner-infos h2 {
+  font-size: 4.2rem;
+}
+
+.banner-infos p {
+  font-size: 20px;
+}

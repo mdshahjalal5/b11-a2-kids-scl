@@ -5,6 +5,7 @@
 /*w: small devices  */
 
 @media (max-width: 576px) {
+  /*w: nav section nav  */
   nav {
     border-bottom: 2px solid gray;
   }
@@ -34,5 +35,17 @@
   }
   .bar-container:hover ul {
     flex-direction: column;
+  }
+  /*w: banner section  */
+  .banner {
+    flex-direction: column-reverse;
+    gap: 0.52rem;
+  }
+  .banner-infos {
+    text-align: center;
+  }
+  .banner-infos h2 {
+    font-size: 2rem;
+    font-weight: 700;
   }
 }
