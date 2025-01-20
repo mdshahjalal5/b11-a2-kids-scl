@@ -1,0 +1,40 @@
+/*w: nav styles */
+header {
+  margin-top: 30px;
+}
+.nav-container {
+  /* gap: 11.62rem; */
+}
+nav {
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.bars {
+  display: none;
+}
+nav img {
+  max-width: 2.93rem;
+  max-height: 2.93rem;
+  margin-top: 10px;
+}
+nav h2 {
+  margin-left: 10px;
+  font-size: 25px;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+.ul-container {
+  justify-content: space-between;
+  gap: 11.62rem;
+  margin-right: 20px;
+}
+
+/* .ul-container button { */
+/* } */

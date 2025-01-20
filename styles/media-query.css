@@ -1,0 +1,38 @@
+/*w:    medium devices */
+@media (max-width: 996px) {
+}
+
+/*w: small devices  */
+
+@media (max-width: 576px) {
+  nav {
+    border-bottom: 2px solid gray;
+  }
+  nav img {
+    margin-bottom: 3px;
+  }
+  nav h2 {
+    display: none;
+  }
+
+  /* Hide default menu */
+  .ul-container {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+    margin-right: 25px;
+  }
+  .bar-container:hover .ul-container {
+    display: block;
+
+    flex-direction: column;
+  }
+  .bar-container:hover .bars {
+    display: none;
+  }
+  .bar-container:hover ul {
+    flex-direction: column;
+  }
+}
