@@ -1,5 +1,32 @@
 /*w:    medium devices */
 @media (max-width: 996px) {
+  .ul-container {
+    gap: 0;
+  }
+  .story-section {
+    padding: 20px;
+  }
+  .stories-card-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+  }
+  #story-card-1 {
+    grid-row: auto;
+    display: none;
+  }
+  /*w: curriculum section */
+  .curriculum-card-container {
+    flex-direction: column-reverse;
+  }
+  /*w: footer section  */
+  footer {
+    padding: 55px 50px;
+    color: white;
+    background: #01acfd;
+    gap: 30px;
+  }
 }
 
 /*w: small devices  */
