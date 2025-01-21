@@ -48,4 +48,18 @@
     font-size: 2rem;
     font-weight: 700;
   }
+  /*w: curriculum section  */
+  .curriculum-card-container {
+    flex-direction: column-reverse;
+  }
+  /*w: story section  */
+  .story-section {
+    padding: 0.5rem;
+  }
+  .stories-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #story-card-1 {
+    display: none;
+  }
 }

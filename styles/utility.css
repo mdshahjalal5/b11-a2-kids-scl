@@ -6,7 +6,9 @@ body {
 * {
   box-sizing: border-box;
 }
-
+img {
+  max-width: 100%;
+}
 .df {
   display: flex;
 }
@@ -27,11 +29,25 @@ body {
   background: black;
   border-radius: 10px;
   color: white;
-  padding: 2px 45px;
+  padding: 15px 45px;
   font-weight: 700;
   font-size: 20px;
 }
-
+.btn-float {
+  background: red;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 25px;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  top: -22px;
+  border: none;
+  border-radius: 20px / 50%;
+}
+.text-light {
+  color: #666666;
+}
 .text-primary {
   color: orange;
 }
@@ -49,7 +65,30 @@ body {
 .shade {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+.gra1 {
+  background: linear-gradient(to top, white, #def5ff);
+}
 
+.gra2 {
+  background: linear-gradient(to bottom, #fff4dc, #def5ff);
+}
+.gra3 {
+  background: linear-gradient(to top, gray, #f2e8ff);
+}
+
+a {
+  text-decoration: none;
+}
+.bgi {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.title {
+  font-size: 2.85rem;
+  font-weight: 700;
+}
 header,
 main {
   max-width: 1440px;
