@@ -79,12 +79,15 @@
   .curriculum-card-container {
     flex-direction: column-reverse;
   }
+  .curriculum-icon-container {
+    display: none;
+  }
   /*w: story section  */
   .story-section {
     padding: 0.5rem;
   }
   .stories-card-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   #story-card-1 {
     display: none;
@@ -101,3 +104,6 @@
     margin-bottom: 0;
   }
 }
+
+/* github url:  */
+/* live site url: https://mdshahjalal5.github.io/b11-a2-kids-scl/ */
