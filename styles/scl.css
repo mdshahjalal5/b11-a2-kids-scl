@@ -6,26 +6,32 @@ header {
 nav {
   justify-content: space-between;
 }
+
 .bars {
   display: none;
 }
+
 nav img {
   max-width: 2.93rem;
   max-height: 2.93rem;
 }
+
 nav h2 {
   margin-left: 10px;
   font-size: 25px;
 }
+
 nav ul li {
   list-style: none;
   margin-right: 20px;
 }
+
 nav ul li a {
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
 }
+
 .ul-container {
   justify-content: space-between;
   gap: 11.62rem;
@@ -37,10 +43,13 @@ nav ul li a {
   padding: 2rem;
   border-radius: 5px;
   justify-content: space-between;
+  margin-top: 80px;
 }
+
 .banner-img {
   max-width: 25.25rem;
 }
+
 .banner-img img {
   max-width: 100%;
 }
@@ -58,22 +67,27 @@ nav ul li a {
   max-width: 1440px;
   margin: 5rem auto;
 }
+
 .curriculum-section h2 {
   font-weight: 700;
   font-size: 2.86rem;
 }
+
 .curriculum-card-container {
   gap: 1.85rem;
   margin: 5rem auto;
 }
+
 .curriculum-card {
   max-width: 22.93rem;
   border-radius: 8px;
   padding: 2.25rem 3rem;
 }
+
 .curriculum-icon-container {
   gap: 5px;
 }
+
 .curriculum-icon {
   height: 2.8rem;
   width: 2.8rem;
@@ -84,26 +98,53 @@ nav ul li a {
 }
 
 /*w: story section  */
-
+.curriculum-section {
+  padding: 30px;
+}
 .story-section {
   padding: 5rem 8.75rem;
   background: linear-gradient(to bottom, #fff4dc, #def5ff);
 }
+
 .stories-card-container {
   grid-template-columns: repeat(3, 1fr);
   grid-template-columns: 2fr 1fr 1fr;
   gap: 30px;
   /* justify-items: center; */
 }
+
 #story-card-1 {
   grid-row: span 2;
 }
+
 .story-card {
   border: gold solid 1px;
   border-radius: 20px;
   padding: 10px;
 }
+
 .story-card img {
   border-radius: 20px;
   width: 100%;
+}
+
+/*w: footer section  */
+
+footer {
+  padding: 140px 100px;
+  color: white;
+
+  background: #01acfd;
+  gap: 172px;
+}
+
+.footer-icons {
+  gap: 15px;
+}
+
+.footer-icons p {
+  font-size: 1.8rem;
+}
+footer li {
+  list-style: none;
 }

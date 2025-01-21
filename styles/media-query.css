@@ -62,4 +62,15 @@
   #story-card-1 {
     display: none;
   }
+  .footer-section {
+    flex-direction: column;
+    padding: 30px;
+
+    gap: 10px;
+    border: 1px solid red;
+  }
+  .touch h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
